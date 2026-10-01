@@ -84,6 +84,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(2.dp))
+
+            //Nama
+            Text(
+                text = "Fasya Tri Nugroho",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
         }
     }
 }
