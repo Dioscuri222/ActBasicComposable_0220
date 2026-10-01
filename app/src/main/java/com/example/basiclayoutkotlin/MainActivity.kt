@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             BasicLayoutKotlinTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    // memanggil composable layout utama dengan padding dari Scaffold
+                        TataletakBoxColumnRow(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
