@@ -21,11 +21,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.w3c.dom.Text
 
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
-    val bgImage = painterResource(id = R.drawable.background)
+    val bgImage = painterResource(id = R.drawable.gambar)
     val logoUmy = painterResource(id = R.drawable.logo_umy)
     val profile = painterResource(id = R.drawable.profile)
 
@@ -110,7 +109,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             //Gambar Lingkaran seperti Profile
             Image(
                 painter = profile,
-                contentDescription = "Gambar Makkah",
+                contentDescription = "Gambar background",
                 modifier = Modifier
                     .size(280.dp)
                     .clip(CircleShape),
