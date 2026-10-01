@@ -94,6 +94,16 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(8.dp))
+
+            //NIM
+            Text(
+                text = "20240140220",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))
         }
     }
 }
