@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -54,6 +55,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Blue
             )
             Spacer(modifier = Modifier.height(4.dp))
+
+            //Logo UMY
+            Image(
+                painter = logoUmy,
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(140.dp),
+                contentScale = ContentScale.Fit
+            )
         }
     }
 }
