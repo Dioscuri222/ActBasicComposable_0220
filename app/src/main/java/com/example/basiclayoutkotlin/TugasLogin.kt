@@ -56,6 +56,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
             Spacer(modifier = Modifier.height(4.dp))
 
+            // Subtitle
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 14.sp,
+                color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
+
             //Logo UMY
             Image(
                 painter = logoUmy,
@@ -63,6 +72,8 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.size(140.dp),
                 contentScale = ContentScale.Fit
             )
+
+            Spacer(modifier = Modifier.height(30.dp))
         }
     }
 }
